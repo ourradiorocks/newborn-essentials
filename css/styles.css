@@ -1,4 +1,7 @@
 /* Use this for custom elemants, classes and IDs which override Bootstrap 4 defaults. */
-html, body {
+* {
+  CHANGEME: changeme;
+}
+body {
   CHANGEME: changeme;
 }

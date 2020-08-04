@@ -5,29 +5,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Newborn Essentials</title>
-
-  <!-- Bootstrap 4 -->
-  <!-- Place scripts before closing body tag before publishing; better for page speed -->
+  <!-- Bootstrap 4
+       Place scripts before closing body tag before publishing; better for page speed -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- My styles -->
+  <link rel="stylesheet" href="css/my.css">
+  <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/6526d85b9d.js" crossorigin="anonymous"></script>
 
-  <!-- My styles -->
-  <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
   <header>
-    <div class="jumbotron jumbotron-fluid text-center mb-0">
+    <div class="jumbotron jumbotron-fluid text-center mb-0 my-jumbotron-bg-img" style="background-image: url(media/irina-murza-YetXBrsPqBE-unsplash.jpg)">
       <h1 class="display-3">newborn essentials</h1>
-      <h2 class="text-muted font-weight-normal">articles, tutorials and award-winning parents' survival kits</h2>
+      <h2 class="font-weight-light">articles, tutorials and award-winning parents' survival kits</h2>
     </div>
   </header>
-  <nav class="navbar navbar-dark navbar-expand-sm sticky-top bg-dark">
+  <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-dark">
     <a class="navbar-brand" href="/">newborn essentials</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -44,11 +43,21 @@
           <a class="nav-link" href="/portal">learning zone</a>
         </li>
       </ul>
+      <div class="ml-auto">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light my-3 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+      <ul class="nav ml-auto">
+        <li class="nav-item text-light">login</li>
+      </ul>
     </div>
   </nav>
   <section>
     <article class="container-fluid">
       <div class="container pt-3 pb-1">
+        <h2>Light section</h2>
         <p>Can you dig it sucka? Who's next?! I am the best in the world. Hey yo. WOOOOO! For the benefit of those with flash photography... Have a nice day! Will never, ever, be the same, again! </p>
         <p>Who's next?! Quote the Raven, nevermore. For the benefit of those with flash photography... This is for all my peeps! If you smell, what The Rock is cooking! Beat me if you can, survive if I let you. Ooooh yeah! Train, say your prayers,
           take
@@ -61,6 +70,7 @@
     </article>
     <article class="container-fluid bg-dark">
       <div class="container text-light pt-3 pb-1">
+        <h2>Dark Section</h2>
         <p>That’s the bottom line because Stone Cold said so! Ladies and gentleman, boys and girls, children of all ages, Degeneration X, proudly brings to you, your WWF TAG TEAM CHAMPIONS OF THE WORLD! The Road Dog Jesse James! The Badass Billy
           Gunn!
           The New! Age! Outlaws! Rest...in...peace. I am the best in the world. Train, say your prayers, take your vitamins. I am the best there is, the best there was, and the best there ever will be. Give me a hell yeah! Whatcha gonna do when
@@ -70,17 +80,37 @@
       </div>
     </article>
     <article class="container-fluid">
+      <div class="row my-row-bg-img" style="background-image: url(media/shirota-yuri-p0hDztR46cw-unsplash.jpg);">
+        <div class="col-12-sm m-auto">
+          <h2 class="display-4 font-weight-lighter text-center">Full-width</h2>
+          <h3 class="display-5 font-weight-lighter text-center">Responsive SCROLLING Image</h3>
+        </div>
+      </div>
+    </article>
+    <article class="container-fluid">
       <div class="container pt-3 pb-1">
-        <p>That’s the bottom line because Stone Cold said so! Ladies and gentleman, boys and girls, children of all ages, Degeneration X, proudly brings to you, your WWF TAG TEAM CHAMPIONS OF THE WORLD! The Road Dog Jesse James! The Badass Billy
-          Gunn!
-          The New! Age! Outlaws! Rest...in...peace. I am the best in the world. Train, say your prayers, take your vitamins. I am the best there is, the best there was, and the best there ever will be. Give me a hell yeah! Whatcha gonna do when
-          Hulkamania runs wild on you! </p>
-        <p>WOOOOO! Rest...in...peace. Give me a hell yeah! Welcome to Raw Is Jericho! Beat me if you can, survive if I let you. Whatcha gonna do when Hulkamania runs wild on you! Ohhhh yes! I am the best in the world. </p>
-        <p>Beat me if you can, survive if I let you. That’s the bottom line because Stone Cold said so! YOU'RE FIRED! Hey yo. Oooh, what a rush! WOOOOO! I am the ayatollah of rock n' rolla! For the benefit of those with flash photography... </p>
+        <h2>Light section</h2>
+        <p>Can you dig it sucka? Who's next?! I am the best in the world. Hey yo. WOOOOO! For the benefit of those with flash photography... Have a nice day! Will never, ever, be the same, again! </p>
+        <p>Who's next?! Quote the Raven, nevermore. For the benefit of those with flash photography... This is for all my peeps! If you smell, what The Rock is cooking! Beat me if you can, survive if I let you. Ooooh yeah! Train, say your prayers,
+          take
+          your vitamins. </p>
+        <p>Whatcha gonna do when Hulkamania runs wild on you! Rest...in...peace. Ladies and gentleman, boys and girls, children of all ages, Degeneration X, proudly brings to you, your WWF TAG TEAM CHAMPIONS OF THE WORLD! The Road Dog Jesse James!
+          The
+          Badass Billy Gunn! The New! Age! Outlaws! YOU'RE FIRED! Ohhhh yes! For the benefit of those with flash photography... Give me a hell yeah! I am the ayatollah of rock n' rolla! </p>
+        <p>Who's next?! Ooooh yeah! Welcome to Raw Is Jericho! This is for all my peeps! Ohhhh yes! To be the man, you gotta beat the man. For the benefit of those with flash photography... I am the best in the world. </p>
+      </div>
+    </article>
+    <article class="container-fluid">
+      <div class="row my-row-bg-img-fixed" style="background-image: url(media/tanaphong-toochinda-GagC07wVvck-unsplash.jpg);">
+        <div class="col-12-sm m-auto">
+          <h2 class="display-4 font-weight-lighter text-center">Full-width</h2>
+          <h3 class="display-5 font-weight-lighter text-center">Responsive FIXED Image</h3>
+        </div>
       </div>
     </article>
     <article class="container-fluid bg-dark">
       <div class="container text-light pt-3 pb-1">
+        <h2>Dark Section</h2>
         <p>That’s the bottom line because Stone Cold said so! Ladies and gentleman, boys and girls, children of all ages, Degeneration X, proudly brings to you, your WWF TAG TEAM CHAMPIONS OF THE WORLD! The Road Dog Jesse James! The Badass Billy
           Gunn!
           The New! Age! Outlaws! Rest...in...peace. I am the best in the world. Train, say your prayers, take your vitamins. I am the best there is, the best there was, and the best there ever will be. Give me a hell yeah! Whatcha gonna do when
@@ -102,8 +132,8 @@
         </ul>
       </div>
       <div class="col-sm text-center">
-        <p><i class="far fa-copyright"></i> Copyright 2020 Laura Perkin</p>
-        <p>Website by Laura Perkin and Ava <i class="far fa-grin-stars"></i></p>
+        <p><i class="fas fa-copyright"></i> Copyright 2020 Laura Perkin</p>
+        <p>Website by Laura Perkin and Ava</p>
       </div>
       <div class="col-sm">
         <address class="text-right">

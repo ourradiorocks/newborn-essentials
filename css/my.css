@@ -1,0 +1,31 @@
+/* Use this for custom elemants, classes and IDs which override Bootstrap 4 defaults. */
+* {
+  CHANGEME: changeme;
+}
+html {
+  CHANGEME: changeme;
+}
+body {
+  CHANGEME: changeme;
+}
+.my-jumbotron-bg-img {
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 127, 255, 0.6);
+  background-blend-mode: screen;
+}
+.my-row-bg-img {
+  min-height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: screen;
+}
+.my-row-bg-img-fixed {
+  min-height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: screen;
+  background-attachment: fixed;
+}

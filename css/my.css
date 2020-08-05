@@ -1,4 +1,7 @@
 /* Use this for custom elemants, classes and IDs which override Bootstrap 4 defaults. */
+
+/* Global Overrides
+-----------------------------------------------------------*/
 * {
   CHANGEME: changeme;
 }
@@ -8,6 +11,9 @@ html {
 body {
   CHANGEME: changeme;
 }
+
+/* Home Page Overrides
+-----------------------------------------------------------*/
 .my-jumbotron-bg-img {
   background-position: center;
   background-size: cover;
@@ -15,14 +21,14 @@ body {
   background-blend-mode: screen;
 }
 .my-row-bg-img {
-  min-height: 400px;
+  min-height: 300px;
   background-position: center;
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: screen;
 }
 .my-row-bg-img-fixed {
-  min-height: 400px;
+  min-height: 300px;
   background-position: center;
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.6);
